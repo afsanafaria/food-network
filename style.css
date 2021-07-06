@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: gray;
+    line-height: 45px;
+}
+h2{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 30px;
+}
+p{
+    font-size: 15px;
+    color: gray;
+    
+}
+span{
+    color: orange;
+}
+.header{
+    display: flex;
+    margin-bottom: 140px;
+}
+.h-left{
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 50%;
+}
+.h-left p{
+    margin-bottom: 40px;
+}
+.hyper{
+    text-decoration: none;
+    background-image: linear-gradient(to right,orange, tomato);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.h-right img{
+    width: 90%;
+}
+.about{
+    display: flex;
+    background-image: url(image/7.png);
+    margin-bottom: 140px;
+}
+.a-left img{
+    padding-top: 5%;
+    width: 50%;
+    padding-left: 20%;
+}
+.a-right{
+    width: 50%;
+    padding-right: 10%;
+    padding-top: 15%;
+}
+.a-right p{
+    margin-bottom: 60px;
+}
+.recipes{
+    margin-bottom: 140px;
+    padding: 0 40px 0 40px;
+}
+.r-top{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+}
+.r-bottom{
+    display: flex;
+}
+.r-bottom h2{
+    padding-left: 5%;
+}
+.r-bottom p{
+    padding-left: 5%;
+    line-height: 20px;
+    padding-right: 5%;
+}
+.r-bottom img{
+    width: 95%;
+   padding: 10px 10px 10px 10px;
+}
+.img1 , .img2 , .img3{
+    box-shadow:  5px 5px 30px gray;
+    border-radius: 20px
+}
+.img2{
+    margin: 0 40px 0 40px;
+}
+.c-top{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.clients{
+    margin-bottom: 140px;
+}
+.c-bottom{
+    display: flex;
+    background-image:url(image/Frame\ 58.jpg) ;
+}
+.c-bottom img{
+    width: 95%;
+}
+.c1 , .c2 , .c3{
+    border-radius: 40px
+ }
+ .c-bottom img{
+    border-radius: 50%;
+ }
+ .c-bottom .c3{
+     padding-top: 3%;
+ }
+ .c-bottom .c1{
+    padding-top: 1%;
+ }
+ .c-bottom h2{
+    text-align: center;
+ }
+ .c-bottom p{
+    text-align: center;
+ }
+ .followers{
+    display: flex;
+    box-shadow:  5px 5px 30px gray;
+    text-align: center;
+    margin: 0 50px 0 50px;
+    border-radius: 10px;
+    margin-bottom: 140px;
+ }
+ .f1 ,.f2 ,.f3{
+     width: 60%;
+ }
+ footer {
+     height: 150px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: black;
+     color: white;
+     text-align: center;
+ }
